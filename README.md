@@ -87,3 +87,8 @@ python val.py --weights runs/train/tomato_disease_yolov5/weights/best.pt \
 
 python detect.py --weights runs/train/.../best.pt \
 --source /test/images --conf 0.25 --save-txt --save-conf
+
+### 🧾 Sample Predictions
+
+![Sample 1](inference_results/sample_1.jpg)
+![Sample 2](inference_results/sample_2.jpg)
