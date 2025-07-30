@@ -89,6 +89,4 @@ python detect.py --weights runs/train/.../best.pt \
 --source /test/images --conf 0.25 --save-txt --save-conf
 
 ### 🧾 Sample Predictions
-
-![Sample 1](inference_results/sample_1.jpg)
-![Sample 2](inference_results/sample_2.jpg)
+The predicted results from the YOLOv5 model can be found in the `prediction_images/` folder.
